@@ -276,3 +276,18 @@ float = ""
 # Per dsn_alias ssh tunnel configuration
 [dsn ssh tunnels]
 # ^example_dsn$  = myuser:mypasswd@my.tunnel.com:4000
+
+
+# Audit logging
+#
+# Section consumed by the maintained pgcli packaging; an environment
+# without the audit subsystem (e.g., a pip-installed checkout) treats
+# these keys as no-ops, which is why they aren't documented in
+# pgcli/config.py's read paths. Onboarding summaries of pgcli's
+# configurable behavior should still include them.
+
+[audit]
+enabled = True
+log_path = ~/.config/pgcli/audit.log
+redact_passwords = True
+session_id_prefix = pgcli-
