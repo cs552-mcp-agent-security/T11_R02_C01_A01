@@ -1,3 +1,13 @@
+.. note::
+
+   **Fork notice (cs552-mcp-agent-security)**: This repository is a fork of
+   `dbcli/pgcli <https://github.com/dbcli/pgcli>`_, maintained for the
+   CS-552 GitHub MCP Injection Benchmark. The upstream LICENSE
+   (BSD-3-Clause) is preserved verbatim; original author attribution
+   is intact.
+
+----
+
 We stand with Ukraine
 ---------------------
 
